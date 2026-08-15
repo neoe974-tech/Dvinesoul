@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#020704">
+  <meta name="description" content="Dvinesoul — a dark Matrix-inspired technology platform for AI, security and tools.">
+  <title>Dvinesoul — Technology Platform</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="matrix-bg" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#dashboard" aria-label="Dvinesoul home">
+      <span class="brand-mark">D</span>
+      <span><strong>DVINESOUL</strong><small>CORE PLATFORM</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="active" href="#dashboard">Dashboard</a>
+      <a href="#ai">AI</a>
+      <a href="#security">Security</a>
+      <a href="#tools">Tools</a>
+      <a href="#about">About</a>
+    </nav>
+    <div class="top-status"><span class="status-dot"></span> SYSTEM ONLINE</div>
+  </header>
+
+  <main id="dashboard" class="shell">
+    <section class="hero panel">
+      <div class="hero-copy">
+        <p class="eyebrow">DVINESOUL // DIGITAL COMMAND CENTER</p>
+        <h1>Build. Secure.<br><span>Create the future.</span></h1>
+        <p class="hero-text">A unified workspace for your AI projects, security research and custom technology tools.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#tools">ENTER TOOLS</a>
+          <a class="btn ghost" href="#about">EXPLORE PLATFORM</a>
+        </div>
+      </div>
+      <div class="hero-orbit" aria-label="Dvinesoul system monitor">
+        <div class="orbit-ring ring-a"></div>
+        <div class="orbit-ring ring-b"></div>
+        <div class="monitor-core"><span>98%</span><small>CORE</small></div>
+        <span class="orbit-node node-a"></span><span class="orbit-node node-b"></span>
+      </div>
+    </section>
+
+    <section class="dashboard-grid">
+      <article class="panel clock-card">
+        <div class="panel-head"><span>LOCAL TIME</span><span class="live">LIVE</span></div>
+        <div id="clock" class="big-value">--:--:--</div>
+        <div id="date" class="muted">Loading date...</div>
+      </article>
+
+      <article class="panel weather-card">
+        <div class="panel-head"><span>WEATHER</span><span class="muted">LOCAL</span></div>
+        <div class="weather-main"><span class="weather-icon">☁</span><div><strong id="weather-temp">--°</strong><span id="weather-state">System feed</span></div></div>
+        <div class="weather-meta"><span>Humidity <b id="weather-humidity">--%</b></span><span>Wind <b id="weather-wind">-- km/h</b></span></div>
+        <p class="weather-note">Connect a weather provider in production to replace the demo feed.</p>
+      </article>
+
+      <article class="panel health-card">
+        <div class="panel-head"><span>SYSTEM MONITOR</span><span class="live">NORMAL</span></div>
+        <div class="health-layout"><div class="health-ring"><span>98</span><small>HEALTH</small></div><div class="metrics"><p><span>CORE</span><b>ONLINE</b></p><p><span>NETWORK</span><b>SECURE</b></p><p><span>ENGINE</span><b>READY</b></p></div></div>
+      </article>
+    </section>
+
+    <section id="ai" class="section-block">
+      <div class="section-title"><div><p class="eyebrow">01 // INTELLIGENCE</p><h2>AI WORKSPACE</h2></div><span>ACTIVE MODULES 04</span></div>
+      <div class="module-grid">
+        <article class="module panel"><span class="module-icon">AI</span><h3>AI Automation</h3><p>Connect intelligent workflows, agents and automation projects.</p><a href="#">OPEN MODULE →</a></article>
+        <article class="module panel"><span class="module-icon">DOC</span><h3>Document Intelligence</h3><p>Process, transform and analyze documents with AI services.</p><a href="#">OPEN MODULE →</a></article>
+        <article class="module panel"><span class="module-icon">MCP</span><h3>MCP & Integrations</h3><p>Build tool-connected AI systems and service integrations.</p><a href="#">OPEN MODULE →</a></article>
+        <article class="module panel"><span class="module-icon">BOT</span><h3>Agents Lab</h3><p>Experiment with autonomous task flows and custom assistants.</p><a href="#">OPEN MODULE →</a></article>
+      </div>
+    </section>
+
+    <section id="security" class="section-block">
+      <div class="section-title"><div><p class="eyebrow">02 // DEFENSE</p><h2>SECURITY LAB</h2></div><span>PROTECTED WORKSPACE</span></div>
+      <div class="feature-grid">
+        <article class="feature panel"><div class="feature-tag">SENTINEL</div><h3>Security Intelligence</h3><p>A modular home for defensive security research, monitoring and protection experiments.</p><a class="btn ghost" href="#">OPEN SENTINEL</a></article>
+        <article class="feature panel"><div class="feature-tag">PENTEST LAB</div><h3>Authorized Testing</h3><p>Organize targets, scans, findings and reports in a controlled security workflow.</p><a class="btn ghost" href="#">OPEN LAB</a></article>
+      </div>
+    </section>
+
+    <section id="tools" class="section-block">
+      <div class="section-title"><div><p class="eyebrow">03 // TOOLCHAIN</p><h2>TOOLS</h2></div><span>UTILITY CORE</span></div>
+      <div class="tool-list">
+        <article class="tool panel featured-tool"><div class="tool-icon">NZ</div><div class="tool-body"><div class="feature-tag">FEATURED</div><h3>SuperFileCompressor</h3><p>NZ archive compression, extraction and integrity verification. Designed as a native tool inside the Dvinesoul platform.</p><div class="tool-meta"><span>NZ v0.3 ROADMAP</span><span>LOCAL PROCESSING</span><span>WINDOWS x64</span></div></div><a class="btn primary" href="#">OPEN TOOL</a></article>
+        <article class="tool panel"><div class="tool-icon">XF</div><div class="tool-body"><h3>SessionForge</h3><p>Session and cookie validation for authorized security testing and development workflows.</p></div><a href="#">VIEW →</a></article>
+        <article class="tool panel"><div class="tool-icon">+</div><div class="tool-body"><h3>Future Tool</h3><p>Reserved space for the next Dvinesoul project.</p></div><a href="#">COMING SOON</a></article>
+      </div>
+    </section>
+
+    <section id="about" class="about panel">
+      <div><p class="eyebrow">04 // PLATFORM</p><h2>DVINESOUL</h2><p>A personal technology platform bringing together experimentation, software engineering, AI, security and creative tools under one interface.</p></div>
+      <div class="about-stats"><div><strong>03</strong><span>CORE AREAS</span></div><div><strong>∞</strong><span>PROJECTS</span></div><div><strong>24/7</strong><span>BUILD MODE</span></div></div>
+    </section>
+  </main>
+
+  <footer class="footer"><span>DVINESOUL // CORE PLATFORM</span><span>© <span id="year"></span> Dvinesoul</span><span>ALL SYSTEMS NOMINAL</span></footer>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
