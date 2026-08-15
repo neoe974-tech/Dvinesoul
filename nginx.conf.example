@@ -1,0 +1,24 @@
+server {
+    listen 80;
+    server_name example.com;
+    root /var/www/dvinesoul;
+    index index.html;
+
+    # Never expose directory listings.
+    autoindex off;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+
+    # Keep deployment/configuration files inaccessible.
+    location ~ /(?:\.git|\.env|config|server|logs|backups)(?:/|$) {
+        deny all;
+        return 404;
+    }
+
+    location ~* \.(?:log|bak|sql)$ {
+        deny all;
+        return 404;
+    }
+}
